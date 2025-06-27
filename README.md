@@ -53,4 +53,4 @@ The dataset was preprocessed to ensure quality and relevance for modeling, and f
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/churn-prediction-xyz-analytics.git](https://github.com/Garehmalika/Analyse-du-Churn-Client-pour-PowerCo-Analytics.git)
+   git clone (https://github.com/Garehmalika/Analyse-du-Churn-Client-pour-PowerCo-Analytics.git)
