@@ -1,39 +1,56 @@
-Dans le cadre de la simulation de job Data Science de BCG, le projet consistait à analyser le churn des clients pour XYZ Analytics, une entreprise fictive. L’objectif était de comprendre les facteurs influençant le départ des clients et de prédire la probabilité de churn à l’aide de techniques avancées de data science.
+# Customer Churn Prediction for XYZ Analytics
 
-**Objectif :**
+## Project Description
+This project was part of a Data Science simulation for BCG, where the goal was to analyze customer churn for XYZ Analytics, a fictional company. The objective was to understand the factors influencing customer churn and predict the probability of churn using advanced data science techniques.
 
-Le principal objectif du projet était de tester l'hypothèse selon laquelle la sensibilité au prix des clients est un facteur clé de leur taux de churn. Pour ce faire, des modèles prédictifs ont été construits à partir de données historiques sur les clients et les prix afin de quantifier l'impact des prix sur les comportements des clients.
+### Objective
+The main objective of this project was to test the hypothesis that price sensitivity of customers is a key factor influencing their churn rate. Predictive models were built using historical data on customers and pricing to quantify the impact of price changes on customer behavior.
 
-**Phases du projet :**
+## Project Goals
+- Understand the factors influencing customer churn for XYZ Analytics.
+- Build predictive models to estimate the probability of churn.
+- Analyze the impact of price sensitivity on churn and suggest strategies to improve customer retention.
 
-Collecte et préparation des données :
+## Dataset
+The dataset used in this project contains information such as:
+- Customer features (e.g., industry sector, historical electricity consumption).
+- Churn data (whether the customer left or stayed).
+- Historical pricing data for electricity and gas.
 
-Identification et extraction des données nécessaires : caractéristiques des clients (secteur d’activité, consommation historique d’électricité, etc.), données de churn et données historiques sur les prix de l’électricité et du gaz.
+The dataset was preprocessed to ensure quality and relevance for modeling, and feature engineering techniques were applied to derive useful insights.
 
-Préparation des données et nettoyage pour garantir leur qualité et leur pertinence pour la modélisation.
+## Tools and Technologies
+- **Python**: The primary programming language used for data analysis and modeling.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib & Seaborn**: For data visualization.
+- **Scikit-learn**: For building and evaluating machine learning models (Logistic Regression, Random Forest, Gradient Boosting).
+- **Jupyter Notebooks**: Used for exploratory data analysis and model development.
 
-Ingénierie des caractéristiques :
+## Steps Involved
 
-Calcul de la sensibilité au prix des clients, en définissant des métriques pour évaluer l'impact des variations de prix sur le churn.
+### 1. Data Collection and Preparation
+- **Data Identification**: Extracted customer characteristics (e.g., sector, consumption history), churn data, and historical pricing data.
+- **Data Cleaning**: Cleaned and preprocessed the data to ensure it was relevant and ready for modeling.
 
-Création de nouvelles fonctionnalités et transformation des données brutes pour optimiser les performances des modèles.
+### 2. Feature Engineering
+- **Price Sensitivity Calculation**: Created metrics to evaluate the impact of price variations on churn.
+- **Feature Creation**: Transformed raw data and created new features to improve model performance.
 
-Modélisation et évaluation :
+### 3. Modeling and Evaluation
+- **Model Development**: Built classification models using Logistic Regression, Random Forest, and Gradient Boosting.
+- **Model Optimization**: Evaluated and optimized models in terms of accuracy, complexity, and interpretability.
+- **Results**: The Random Forest model achieved a precision rate of 85% in predicting churn.
 
-Utilisation de plusieurs algorithmes de classification, dont la régression logistique, le Random Forest et les machines à gradient boosting, pour prédire le churn des clients.
+### 4. Insights and Recommendations
+- **Executive Summary**: A report summarizing the findings and providing strategic recommendations for XYZ Analytics.
+- **Recommendations**: Proposed targeted strategies for managing customers at risk of churn, including adjusting prices based on customer sensitivity.
 
-Optimisation et évaluation des modèles en termes de précision, complexité et interprétabilité. Le modèle Random Forest a obtenu un taux de précision de 85 % pour la prédiction du churn.
+## Results
+- **Model Performance**: The Random Forest model predicted customer churn with an accuracy of 85%.
+- **Price Sensitivity Insights**: Identified customers who are highly sensitive to price changes.
+- **Actionable Recommendations**: Suggested specific approaches for improving customer retention by adjusting pricing strategies for sensitive customers.
 
-**Synthèse et recommandations :**
-
-Rédaction d’un résumé exécutif à l’intention de l’Associate Director, résumant les résultats de l’analyse et formulant des recommandations stratégiques basées sur les résultats des modèles.
-
-Proposition d’approches ciblées pour la gestion des clients à risque de churn, notamment en ajustant les prix en fonction de la sensibilité des clients.
-
-**Résultats clés :**
-
-Un modèle Random Forest robuste capable de prédire le churn des clients avec une précision de 85 %.
-
-Une identification des clients les plus sensibles aux variations de prix, avec des recommandations sur la gestion de ces clients à risque pour améliorer la rétention.
-
-Des insights pratiques permettant à l'entreprise de prendre des décisions éclairées sur la tarification et les stratégies de fidélisation.
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/churn-prediction-xyz-analytics.git
